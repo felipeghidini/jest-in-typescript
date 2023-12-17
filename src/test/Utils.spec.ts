@@ -16,6 +16,8 @@ describe('Utils test suite', () => {
       console.log('Teardown');      
     })
 
+    it.todo('test long strings');
+
     it('Return correct upperCase', () => {
       const actual = sut.toUpperCase('abc');
 
@@ -32,19 +34,19 @@ describe('Utils test suite', () => {
       expect(expectError).toThrowError('Invalid Argument!');      
     })
 
-    it.only('Throw error on invalid argument - arrow function', () => {
+    it('Throw error on invalid argument - arrow function', () => {
       expect(() => {
         sut.toUpperCase('');
       }).toThrow('Invalid Argument!');
     })
 
-    it.only('Throw error on invalid argument - try catch block', (done) => {
+    it('Throw error on invalid argument - try catch block', (done) => {
       try {
         sut.toUpperCase('');
         done('GetStringInfo should throw error for invalid arg!');
       } catch (error) {
         expect(error).toBeInstanceOf(Error);
-        expect(error).toHaveProperty('message', 'Invalid argument!');
+        expect(error).toHaveProperty('message', 'Invalid Argument!');
         done();
       }
     });
