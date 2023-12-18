@@ -1,8 +1,6 @@
-![](https://github.com/jestjs/jest/raw/main/website/static/img/jest-readme-headline.png)
-![](data:image/png)
-
-# Nome do projeto
-Uma breve descrição do projeto
+![download](https://github.com/felipeghidini/jest-in-typescript/assets/49081674/29156e03-0115-4b01-80a8-19a8a872cdba)
+# Jest in TypeScript
+Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade.
 
 ## Introdução
 Coloque aqui as instruções e quais são os objetivoss e funcionalidades
